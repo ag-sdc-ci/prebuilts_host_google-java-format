@@ -1,0 +1,32 @@
+package {
+    default_applicable_licenses: ["external_google-java-format_license"],
+}
+
+license {
+    name: "external_google-java-format_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "LICENSE",
+    ],
+}
+
+java_import {
+    name: "google_java_format",
+    jars: ["lib64/google-java-format.jar"],
+    host_supported: true,
+}
+
+java_import {
+    name: "google-java-format",
+    jars: ["lib64/google-java-format.jar"],
+    host_supported: true,
+}
+
+java_import {
+    name: "google_java_format_android_annotation_stubs",
+    jars: ["lib64/google-java-format.jar"],
+    host_supported: true,
+}

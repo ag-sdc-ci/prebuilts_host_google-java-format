@@ -1,0 +1,5 @@
+shadow prebuilt repo: google-java-format (host)
+  upstream package: google-java-format v1.18.1, Maven Central / Google Java Format all-deps
+  api-level: universal (JVM bytecode host library)
+  layout: lib64/google-java-format.jar; Android.bp providing google_java_format & google_java_format_android_annotation_stubs
+  date: 2026-10-16
